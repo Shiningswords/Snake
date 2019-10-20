@@ -31,7 +31,7 @@ namespace Snake
             line.Draw();
 
             VerticalLine linev = new VerticalLine(5, 5, 10, '+');
-            linev.Draw();
+            linev.Draw();  
             */
             Console.ReadKey();
         }
