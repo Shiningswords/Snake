@@ -8,21 +8,14 @@ namespace Snake
 {
     class Program
     {
-        static void Draw(int x, int y, char symb)
-        {
-            Console.SetCursorPosition(x, y);
-            Console.WriteLine(symb);
-        }
+        
         static void Main(string[] args)
         {
-            int x1 = 4;
-            int y1 = 10;
-            char symb1 = '*';
-            Draw(x1, y1, symb1);
-            int x2 = 3;
-            int y2 = 5;
-            char symb2 = '#';
-            Draw(x2, y2, symb2);
+            Point p1 = new Point();
+            p1.x = 4;
+            p1.y = 16;
+            p1.symb = 'X';
+            p1.Draw();
             Console.ReadKey();
         }
     }
